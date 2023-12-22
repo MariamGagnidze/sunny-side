@@ -1,0 +1,87 @@
+@media(width > 1023px){
+    .card1 {
+        height: 100vh;
+      }
+      .heading h1 {
+        width: 100%;
+        font-size: 56px;}
+        
+.class1{
+    display: flex;
+}
+.class2{
+    display: flex;
+}
+.class3{
+    display: flex;
+}
+.mobile-img{
+    display: none;
+}
+.laptop-img{
+    display: block;
+    width: 90%;
+
+}
+.imgg{
+    width: 111%;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+    
+.card2{
+    width: 720px;
+height: 600px;
+
+
+}
+card4{
+    width: 720px;
+height: 600px;
+
+
+}
+
+.card3 {
+    width: 70%;
+    height: 60vh;
+    padding-bottom: 5%;
+  
+    padding-top: 30px;
+  }
+
+  .card5 {
+    width: 90%;
+    height: 60vh;
+  
+    
+  }
+
+  .card1 {
+   
+    height: 400px;
+    background-size: cover;
+    
+  }
+
+  .footer {
+  margin-top: -1%;
+  }
+
+
+  
+
+
+
+
+
+
+
+}
