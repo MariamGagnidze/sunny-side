@@ -1,17 +1,15 @@
 @media(width > 1023px){
     .card1 {
-        height: 100vh;
+        height: 300vh;
       }
       .heading h1 {
         width: 100%;
         font-size: 56px;}
         
-.class1{
-    display: flex;
-}
-.class2{
-    display: flex;
-}
+        .card1 {
+            background-size: cover; 
+          }
+
 .class3{
     display: flex;
 }
@@ -36,46 +34,55 @@
 
 
     
-.card2{
-    width: 720px;
-height: 600px;
 
-
-}
-card4{
-    width: 720px;
-height: 600px;
-
-
-}
-
-.card3 {
-    width: 70%;
-    height: 60vh;
-    padding-bottom: 5%;
-  
-    padding-top: 30px;
-  }
-
-  .card5 {
-    width: 90%;
-    height: 60vh;
-  
-    
-  }
 
   .card1 {
-   
-    height: 400px;
+   width: 100%;
+    height: 800px;
     background-size: cover;
+    background-position: center top;
     
   }
-
-  .footer {
-  margin-top: -1%;
+  .card2-img,
+  .card4-img {
+      margin: 0;
+      padding: 0;
   }
+  
+
+  .class1, .class2 {
+    
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card2, .card3 {
+    flex: 0 0 50%; 
+}
+
+.card2-img img {
+    max-width: 100%; 
+    height: auto;
+}
 
 
+.card4, .card5 {
+    flex: 0 0 50%; 
+}
+
+.card4-img img {
+    max-width: 100%; 
+    height: auto;
+}
+.card2{
+    order: 2;
+}
+.card3{
+    order:1;
+}
+.class3{
+    margin-top: -1%;
+}
   
 
 
@@ -84,4 +91,15 @@ height: 600px;
 
 
 
+}
+
+
+
+@media(width > 374px){
+    .card2-img img, .card4-img img {
+        width: 100%; 
+    }
+    .card1{
+        background-position: center top;
+    }
 }

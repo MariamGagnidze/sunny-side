@@ -7,6 +7,7 @@
 .container {
   width: 100%;
   height: auto;
+  padding-top: 0;
 }
 
 .nav-heading h3 {
@@ -41,16 +42,27 @@
 
 .card1 {
   width: 100%;
-  height: 36vh;
+  height: 70vh;
   background-image: url(./images/photo-1569201529241-f96205e2f2c6.png);
-  background-size: contain;
+  background-size:cover;
   background-repeat: no-repeat;
-  padding: 5%;
+  
+
+  
+}
+.card1 img {
+  width: 100%;
+height: 70vh;
+ 
+  margin-top: 0;
+  padding-top: 0;
+  
+  object-fit: cover;
+
 }
 .card2 {
   width: 100%;
-  height: 70vh;
-  background-image: url(./images/mae-mu-40NjbC-Q-cw-unsplash.png);
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -66,7 +78,7 @@
   font-weight: 900;
   line-height: 39px;
   letter-spacing: -0.22857142984867096px;
-  text-align: center;
+  text-align: left;
   color: rgba(36, 48, 62, 1);
 }
 
@@ -76,7 +88,7 @@
   font-weight: 600;
   line-height: 30px;
   letter-spacing: -0.12857143580913544px;
-  text-align: center;
+  text-align: left;
   color: rgba(128, 131, 151, 1);
   padding-top: 30px;
 }
@@ -96,23 +108,25 @@ a {
 
 .card3-link {
   padding-top: 50px;
-  text-align: center;
+  text-align: left;
 }
 .card3 {
   width: 100%;
-  height: 70vh;
-  padding-bottom: 5%;
+  height: auto;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  
 
   padding-top: 30px;
 }
 
-.card4 {
-  width: 100%;
-  height: 60vh;
-  background-image: url(./images/mae-mu-40NjbC-Q-cw-unsplash-2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+.card4  img{
+  size: 50%;
+  height: 300px;
+  
 }
 
 
@@ -126,7 +140,7 @@ a {
   font-weight: 900;
   line-height: 39px;
   letter-spacing: -0.22857142984867096px;
-  text-align: center;
+  text-align: left;
   color: rgba(36, 48, 62, 1);
 }
 
@@ -136,30 +150,42 @@ a {
   font-weight: 600;
   line-height: 30px;
   letter-spacing: -0.12857143580913544px;
-  text-align: center;
+  text-align: left;
   color: rgba(128, 131, 151, 1);
   padding-top: 30px;
 }
 
 .card5-link {
   padding-top: 50px;
-  text-align: center;
+  text-align: left;
+}
+
+.texts{
+  display: flex;
+ 
+  flex-direction: column;
+  text-align: left;
 }
 .card5 {
-  width: 100%;
-  height: 70vh;
-
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
   padding-top: 30px;
   padding: 5%;
+  text-align: left;
 }
 
 .card6 {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   background-image: url(./images/mae-mu-vbAEHCrvXZ0-unsplash.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+ 
+  background-position: center top;
 }
 
 .absolute {
@@ -200,11 +226,13 @@ a {
 
 .card7 {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   background-image: url(./images/mae-mu-U1iYwZ8Dx7k-unsplash.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  background-position: center top;
+
 }
 
 .absolute {
@@ -414,6 +442,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: rgba(144, 212, 198, 1);
+  margin-top: -1%;
 }
 
 .footer-heading {
@@ -447,3 +476,5 @@ a {
   color: rgba(44, 117, 102, 1);
   margin: 20px 0;
 }
+
+
